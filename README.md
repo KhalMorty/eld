@@ -13,7 +13,7 @@
 
 <!-- absolute url for docs.rs cause assets are excluded from crate -->
 
-![logo](https://raw.githubusercontent.com/opensass/eld/main/assets/logo.webp)
+![logo](https://raw.githubusercontent.com/opensass/eld/refs/heads/main/assets/logo.webp)
 
 </div>
 
