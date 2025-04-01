@@ -1,0 +1,175 @@
+.input-form {
+	max-width: 500px;
+	padding: 20px;
+	background: #f9f9f9;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.input-form input,
+.input-form textarea,
+.input-form button {
+	width: 100%;
+	max-width: 100%;
+	box-sizing: border-box;
+}
+
+h3 {
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.input-group {
+	display: flex;
+	justify-content: space-between;
+	gap: 25px;
+}
+
+.time-input {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+input,
+textarea {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.status-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+	gap: 10px;
+	margin: 15px 0;
+}
+
+.status-button {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+	border: 2px solid transparent;
+	border-radius: 6px;
+	background: #eee;
+	transition: all 0.3s ease-in-out;
+}
+
+.status-box {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.status-label {
+	font-size: 12px;
+	color: #555;
+}
+
+.status-button.selected {
+	border-color: #007bff;
+	background: #d0e5ff;
+}
+
+.submit-button {
+	width: 100%;
+	padding: 10px;
+	background: #007bff;
+	color: white;
+	border: none;
+	border-radius: 6px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.submit-button:hover {
+	background: #0056b3;
+}
+
+.message {
+	text-align: center;
+	color: green;
+	margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 500px) {
+	.input-group {
+		flex-direction: column;
+	}
+
+	.status-grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+.off-duty .status-box {
+	background: #ddd;
+	color: black;
+}
+.sleeper .status-box {
+	background: black;
+	color: white;
+}
+.on-duty .status-box {
+	background: orange;
+	color: white;
+}
+.driving .status-box {
+	background: green;
+	color: white;
+}
+.pc .status-box {
+	background: lightblue;
+	color: black;
+}
+.ym .status-box {
+	background: lightcoral;
+	color: black;
+}
+
+.status-box {
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 5px;
+	padding: 4px;
+}
+
+.status-label {
+	padding-top: 15px;
+	font-size: 14px;
+	color: #666;
+}
+
+.stats-container {
+	max-width: 600px;
+	padding: 20px;
+	text-align: center;
+}
+
+.stats-table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 10px;
+}
+
+.stats-table th,
+.stats-table td {
+	border: 2px solid #ddd;
+	padding: 10px;
+	text-align: center;
+}
+
+.stats-table thead {
+	background-color: #f4f4f4;
+	font-weight: bold;
+}
+
+@media (max-width: 480px) {
+	.stats-table th,
+	.stats-table td {
+		font-size: 14px;
+		padding: 8px;
+	}
+}
