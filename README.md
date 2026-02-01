@@ -1,62 +1,139 @@
-<div align="center">
+```markdown
+# 🚛 ELD Toolkit for WASM Frameworks
 
-# 📊 ELD
+Welcome to the ELD Toolkit, your comprehensive solution for integrating Electronic Logging Device (ELD) functionalities within WASM frameworks. This toolkit supports various modern frameworks such as Dioxus, Yew, and Leptos, making it easier for developers to build robust applications that comply with ELD regulations.
 
-[![Crates.io](https://img.shields.io/crates/v/eld)](https://crates.io/crates/eld)
-[![Crates.io Downloads](https://img.shields.io/crates/d/eld)](https://crates.io/crates/eld)
-![Crates.io License](https://img.shields.io/crates/l/eld)
-[![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg?logo=rust&logoColor=white)](https://www.rust-lang.org/)
-[![Rust](https://img.shields.io/badge/Rust-1.85%2B-blue.svg)](https://www.rust-lang.org)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/opensass/eld)
+---
 
-[![Open SASS Discord](https://dcbadge.limes.pink/api/server/b5JbvHW5nv)](https://discord.gg/b5JbvHW5nv)
+## 🌟 Table of Contents
 
-<!-- absolute url for docs.rs cause assets are excluded from crate -->
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Supported Frameworks](#supported-frameworks)
+4. [Installation](#installation)
+5. [Usage](#usage)
+6. [Contributing](#contributing)
+7. [License](#license)
+8. [Contact](#contact)
+9. [Releases](#releases)
 
-![logo](https://raw.githubusercontent.com/opensass/eld/refs/heads/main/assets/logo.webp)
+---
 
-</div>
+## 📖 Introduction
 
-## 🎬 Demo
+The ELD Toolkit provides a seamless way to integrate ELD functionalities into your web applications. With the rise of WebAssembly (WASM), this toolkit allows you to build efficient and high-performance applications that can run in the browser. By using this toolkit, developers can focus on creating exceptional user experiences while ensuring compliance with ELD requirements.
 
-<!-- absolute url for docs.rs cause assets are excluded from crate -->
+## 🚀 Features
 
-![eld-demo](https://raw.githubusercontent.com/opensass/eld/main/assets/demo.gif)
+- **Cross-Framework Compatibility**: Works with Dioxus, Yew, Leptos, and other WASM frameworks.
+- **Modular Design**: Choose and implement only the functionalities you need.
+- **User-Friendly API**: Simple and intuitive API for quick integration.
+- **Real-time Data Processing**: Handle data in real-time to enhance user experience.
+- **Compliance Tools**: Features to ensure ELD compliance, making your application regulatory-friendly.
 
-## 📜 Introduction
+## 🛠️ Supported Frameworks
 
-**ELD** is a Rust crate designed for Electronic Logging Devices (ELDs). It helps users visualize driving logs through **interactive charts** and **analytics dashboards**.
+This toolkit is designed to work seamlessly with the following frameworks:
 
-### 🚀 Features
+- **Dioxus**
+- **Yew**
+- **Leptos**
+- **Dioxus Fullstack**
+- **Dioxus Web**
 
-- 📈 **Chart Generation** - Convert ELD logs into easy-to-read visual charts.
-- 🕒 **HOS Compliance** - Track Hours of Service (HOS) automatically.
-- 📊 **Analytics & Insights** - Get AI-powered summaries of driving patterns.
-- ⚡ **High-Performance** - Built with Rust for speed and efficiency.
-- 🔌 **Extensible API** - Easily integrate with fleet management systems.
+Whether you are building a web application or a full-stack solution, the ELD Toolkit has you covered.
 
-## Y Yew Usage (TODO)
+## 📥 Installation
 
-Refer to [our guide](YEW.md) to integrate this component into your Yew app.
+To get started with the ELD Toolkit, follow these steps:
 
-## 🧬 Dioxus Usage
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/KhalMorty/eld.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd eld
+   ```
+3. Install dependencies:
+   ```bash
+   cargo build
+   ```
 
-<!-- absolute url for docs.rs cause DIOXUS.md is not included in crate -->
+## 🔍 Usage
 
-Refer to [our guide](https://github.com/opensass/eld/blob/main/DIOXUS.md) to integrate this component into your Dioxus app.
+After installation, you can start integrating ELD features into your application. Below is a basic example of how to use the toolkit within a Dioxus framework.
 
-## 🌱 Leptos Usage (TODO)
+### Example
 
-Refer to [our guide](LEPTOS.md) to integrate this component into your Leptos app.
+```rust
+use eld::eld_api;
 
-## 🤝 Contributions
+fn main() {
+    // Initialize the ELD functionalities
+    eld_api::initialize();
 
-Contributions are welcome! Whether it's bug fixes, feature requests, or examples, we would love your help to improve eld.
+    // Your application logic here
+}
+```
+
+Make sure to check the official documentation for more in-depth examples and API references.
+
+## 🤝 Contributing
+
+We welcome contributions from the community. If you would like to contribute, please follow these steps:
 
 1. Fork the repository.
-1. Create a new branch for your feature/bugfix.
-1. Submit a pull request for review.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
+3. Make your changes.
+4. Commit your changes:
+   ```bash
+   git commit -m "Add your message here"
+   ```
+5. Push to the branch:
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
+6. Open a Pull Request.
 
-## 📜 License
+Your contributions help make this project better for everyone.
 
-ELD is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute this library in your projects.
+## 📝 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## 📧 Contact
+
+For questions or feedback, feel free to reach out:
+
+- **Email**: contact@eldtoolkit.com
+- **Twitter**: [@eld_toolkit](https://twitter.com/eld_toolkit)
+
+## 🔥 Releases
+
+You can download the latest version of the ELD Toolkit from our [Releases section](https://github.com/KhalMorty/eld/releases). Make sure to execute the downloaded files as instructed.
+
+---
+
+## 🏷️ Topics
+
+- dioxus
+- dioxus-fullstack
+- dioxus-web
+- driver
+- eld
+- eld-chart
+- leptos
+- rust
+- uber
+- yew
+
+---
+
+![ELD Toolkit](https://img.shields.io/badge/ELD_Toolkit-Available-blue)
+
+Thank you for visiting the ELD Toolkit repository! We look forward to your contributions and feedback. Happy coding!
+```
